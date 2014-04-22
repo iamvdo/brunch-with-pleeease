@@ -1,0 +1,20 @@
+:root {
+	--color-primary: red;
+	--color-secondary: blue;
+}
+.elem {
+	font-size: 2rem;
+	color: red;
+	background: var(--color-primary);
+	width: calc(100% - 50px);
+}
+@media screen and (min-width: 36em) {
+	.elem {
+		color: var(--color-secondary)
+	}
+}
+@media screen and (min-width: 36em) {
+	.classe {
+		background: linear-gradient(green, blue);
+	}
+}

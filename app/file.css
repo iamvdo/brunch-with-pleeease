@@ -1,0 +1,9 @@
+/* test variables form another file */
+.anotherfile {
+	color: var(--color-secondary);
+}
+@media screen and (min-width: 36em) {
+	.anotherfile {
+		color: var(--color-primary);
+	}
+}

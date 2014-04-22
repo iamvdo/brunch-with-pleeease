@@ -3,7 +3,7 @@ exports.config =
     stylesheets:
       joinTo: 'app.css'
       order:
-        before ['app/app.css']
+        before: ['app/app.css']
   optimize: true
   plugins:
     please:

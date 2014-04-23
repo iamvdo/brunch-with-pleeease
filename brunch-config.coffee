@@ -1,12 +1,12 @@
 exports.config =
   files:
     stylesheets:
-      joinTo: 'app.css'
+      joinTo: 'app.min.css'
       order:
         before: ['app/app.css']
   optimize: true
   plugins:
-    please:
+    pleeease:
       autoprefixer: true
       minifier: false
       mqpacker: false
@@ -17,6 +17,6 @@ exports.config =
   overrides:
     minifier:
       plugins:
-        please:
+        pleeease:
           minifier: true
           mqpacker: true

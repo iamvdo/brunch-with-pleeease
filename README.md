@@ -1,18 +1,18 @@
-brunch-with-please
-==================
+brunch-with-pleeease
+====================
 
-Brunch skeleton for [Please CSS plugin for Brunch](http://github.com/iamvdo/please-brunch) postprocessor.
+Brunch skeleton for [Pleeease CSS plugin for Brunch](http://github.com/iamvdo/pleeease-brunch) postprocessor.
 
 ##Get the skeleton
 
 ```
-brunch new gh:iamvdo/brunch-with-please
+brunch new gh:iamvdo/brunch-with-pleeease
 ```
 
 Or
 
 ```
-brunch new https://github.com/brunch-with-please
+brunch new https://github.com/brunch-with-pleeease
 ```
 
 ##Build

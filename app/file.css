@@ -1,4 +1,4 @@
-/* test variables form another file */
+/* test variables from another file */
 .anotherfile {
 	color: var(--color-secondary);
 }

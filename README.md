@@ -12,7 +12,7 @@ brunch new gh:iamvdo/brunch-with-pleeease
 Or
 
 ```
-brunch new https://github.com/brunch-with-pleeease
+brunch new https://github.com/iamvdo/brunch-with-pleeease
 ```
 
 ##Build

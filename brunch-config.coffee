@@ -12,7 +12,8 @@ exports.config =
       mqpacker: false
       polyfills:
         variables: true
-        rem: false
+        rem: true
+        pseudoElement: true
 
   overrides:
     minifier:

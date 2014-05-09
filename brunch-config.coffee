@@ -13,7 +13,7 @@ exports.config =
       polyfills:
         variables: true
         rem: true
-        pseudoElement: true
+        pseudoElements: true
 
   overrides:
     minifier:

@@ -10,7 +10,7 @@ exports.config =
       autoprefixer: true
       minifier: false
       mqpacker: false
-      polyfills:
+      fallbacks:
         variables: true
         rem: true
         pseudoElements: true

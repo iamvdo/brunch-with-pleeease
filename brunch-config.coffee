@@ -7,17 +7,20 @@ exports.config =
   optimize: true
   plugins:
     pleeease:
-      autoprefixer: true
-      minifier: false
-      mqpacker: false
       fallbacks:
+        autoprefixer: true
         variables: true
-        rem: true
-        pseudoElements: true
+        rem: false
+      optimizers:
+        import: false
+        minifier: false
+        mqpacker: false
 
   overrides:
     minifier:
+      sourceMaps: false
       plugins:
         pleeease:
-          minifier: true
-          mqpacker: true
+          optimizers:
+            minifier: true
+            mqpacker: true
